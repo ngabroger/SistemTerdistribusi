@@ -10,6 +10,8 @@
 </head>
 <body>
 
+    <div class="background-dashboard"></div>
+
     <!-- Navigasi -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
             <div class="container-fluid">
@@ -40,9 +42,15 @@
     </nav>
 
     <div class="container-dashboard">
-        <img src="image/logo-slebew.png" alt="slebew bang">
+        <img src="image/logo-slebew-v2.png" alt="slebew bang">
+    </div>
+
+    <div class="welkom">
         <h3>Selamat datang di dashboard</h3>
-</div>
+        <h3> <?php 
+        $username = 'ujang';
+        echo $username; ?></h3>
+    </div>
 
 <?php include('bootstrap/footer.php');?>
 </body>
