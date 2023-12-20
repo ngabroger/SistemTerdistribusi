@@ -2,7 +2,9 @@
 include ("bootstrap/header.php");
 
 ?>
+<title>Login</title>
 <link rel="stylesheet" href="style/login.css">
+<link rel="Icon" href="image/login-icon.png" type="image/x-icon">
 
 <div class="testing">
     <form class="form-container">
