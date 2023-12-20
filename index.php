@@ -37,6 +37,11 @@
         </div>
 </nav>
 
+<div>
+    <img src="image/logo-slebew.png" alt="slebew bang">
+    <h3>Selamat datang di dashboard</h3>
+</div>
+
 <?php include('bootstrap/footer.php');?>
 </body>
 </html>
