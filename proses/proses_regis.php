@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($conn->query($query) === TRUE) {
         // Registrasi berhasil, redirect ke halaman login atau halaman lain yang sesuai
-        echo "<script>alert('Register Berhasil.');window.location='../login.php';</script>";
+        echo "<script>alert('Register Berhasil.');window.location='../index.php';</script>";
         exit();
     } else {
         // Registrasi gagal, tampilkan pesan error atau redirect ke halaman registrasi
