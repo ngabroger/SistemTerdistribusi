@@ -16,17 +16,15 @@ include ("bootstrap/header.php");
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label textForm">Password</label>
           <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-key"></i></span>
+            <span class="input-group-text" id="basic-addon1"><i class="bi bi-key"></i></span>
           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Masukkan Password">
         </div>
-        <div style="margin-top: -13px;" class="text-end">
-            <a href="#" class="textForm text-hover">Lupa Password?</a>
-        </div>
-        <div class="d-grid mt-5">
+
+        <div class="d-grid mt-3">
         <button type="submit" class="btn btn-outline-primary textForm">Masuk</button>
         </div>
-        <div class="mt-1">
-            <span class="textForm ">Gk punya akun ya?  <a href="register.html" class="textForm text-hover">daftar yuk</a></span>
+        <div class="mt-4">
+            <span class="textForm ">Gk punya akun ya?  <a href="register.php" class="textForm text-hover text-danger">daftar yuk</a></span>
         </div>
       </form>
 </div>
