@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tugas Sistem Terdistribusi</title>
-    <?php include('Bootstrap/footer.php'); // Include Bootstrap files from footer.php ?>
+    <?php include('bootstrap/header.php');?>
 </head>
 <body>
 
@@ -28,5 +28,6 @@
     </div>
 </nav>
 
+<?php include('bootstrap/footer.php');?>
 </body>
 </html>
