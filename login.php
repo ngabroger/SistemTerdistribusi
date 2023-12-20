@@ -4,7 +4,7 @@ include ("bootstrap/header.php");
 ?>
 <link rel="stylesheet" href="style/login.css">
 
-<div class="container">
+<div class="testing">
     <form class="form-container">
         <h3 class="textJudul mb-5 mt-2">Masuk</h3>
         <div class="mb-3">
