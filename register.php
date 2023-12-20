@@ -19,7 +19,7 @@
                 <label for="username" class="form-label textForm">Username</label>
                 <div class="input-group mb-3">
                     <span class="input-group-text" class="basic-addon1"><i class="bi bi-person-circle"></i></span>
-                    <input type="text" name="username" class="form-control">
+                    <input type="text" name="username" class="form-control" placeholder="Username" >
                 </div>
             </div>
             
@@ -27,7 +27,7 @@
                 <label for="email" class="form-label textForm">Email</label>
                 <div class="input-group mb-3" >
                     <span class="input-group-text" id="basic-addon1" >@</span>
-                    <input type="text" name="email" class="form-control" >
+                    <input type="text" name="email" class="form-control" placeholder="Email">
                 </div>
                 </div>
 
@@ -35,7 +35,7 @@
                 <label for="password" class="form-label textForm">Password</label>
                 <div class="input-group mb-3" >
                     <span class="input-group-text" id="basic-addon1"><i class="bi bi-key"></i></span>
-                    <input type="password" name="password" class="form-control">
+                    <input type="password" name="password" class="form-control" placeholder="Password">
                 </div>
                 </div>
 
