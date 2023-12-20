@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$database = "sister_terdistribusi";
+$database = "sistem_terdistribusi";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);

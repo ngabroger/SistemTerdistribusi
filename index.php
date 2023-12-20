@@ -7,16 +7,12 @@
     <?php include('bootstrap/header.php');?>
 
     <link rel="stylesheet" href="style/style-index.css">
-    <link rel="Icon" href="image/logo-slebew-v2.png" type="image/x-icon">
 </head>
 <body>
 
-    <!-- BACKGROUND PAGE -->
     <div class="background-dashboard"></div>
-    <!-- BACKGROUND PAGE -->
 
-
-    <!-- NAVBAR START -->
+    <!-- Navigasi -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">SLEBEW</a>
@@ -44,26 +40,18 @@
                 </div>
             </div>
     </nav>
-    <!-- NAVBAR START -->
 
-
-    <!-- LOGO PAGE -->
     <div class="container-dashboard">
         <img src="image/logo-slebew-v2.png" alt="slebew bang">
     </div>
-    <!-- LOGO PAGE -->
 
-
-    <!-- CONTAINER DASHBOARD -->
     <div class="welkom">
         <h3>Selamat datang di dashboard</h3>
         <h3> <?php 
         $username = 'ujang';
         echo $username; ?></h3>
     </div>
-    <!-- CONTAINER DASHBOARD -->
 
-
-<?php include('bootstrap/footer.php');?>
-</body>
-</html>
+<?php 
+include ("bootstrap/footer.php");
+?>
