@@ -8,13 +8,16 @@
     <?php include('bootstrap/header.php');?>
 
     <link rel="stylesheet" href="style/style-index.css">
+    <link rel="Icon" href="image/logo-slebew-v2.png" type="image/x-icon">
 </head>
 
 <body>
-
+    <!-- Background Image Page -->
     <div class="background-dashboard"></div>
+    <!-- Background Image Page -->
+    
 
-    <!-- Navigasi -->
+    <!-- Navbar Start-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">SLEBEW</a>
@@ -43,11 +46,17 @@
             </div>
         </div>
     </nav>
+    <!-- Navbar End-->
 
+
+    <!-- Logo Dashboard-->
     <div class="container-dashboard">
         <img src="image/logo-slebew-v2.png" alt="slebew bang">
     </div>
+    <!-- Logo Dashboard-->
 
+
+    <!-- Title Dashboard-->
     <div class="welkom">
         <h3>Selamat datang di dashboard</h3>
         <h3> <?php 
@@ -55,6 +64,8 @@
         
         echo $username; ?></h3>
     </div>
+    <!-- Title Dashboard-->
+
 
     <?php include('bootstrap/footer.php');?>
 </body>
