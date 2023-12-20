@@ -51,7 +51,8 @@
     <div class="welkom">
         <h3>Selamat datang di dashboard</h3>
         <h3> <?php 
-        $username = 'ujang';
+        include ("proses/proses_login.php");
+        
         echo $username; ?></h3>
     </div>
 
