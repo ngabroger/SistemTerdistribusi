@@ -1,3 +1,16 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['email'])) {
+    // Redirect to the login page if the user is not logged in
+    header('Location: index.php');
+    exit;
+}
+// Debugging output
+
+// Ambil nilai username dari sesi
+$username = $_SESSION['username'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -59,10 +72,7 @@
     <!-- Title Dashboard-->
     <div class="welkom">
         <h3>Selamat datang di dashboard</h3>
-        <h3> <?php 
-        include ("proses/proses_login.php");
-        
-        echo $username; ?></h3>
+     <h3> <?php echo $username;?></h3>
     </div>
     <!-- Title Dashboard-->
 
