@@ -67,6 +67,45 @@
     <!-- Title Dashboard-->
 
 
+    <!-- TEAM STARTS -->
+    <div class="team" id="team">
+        <div class="heading">
+            <h3>Our Team</h3>
+        </div>
+        <div class="box-container">
+            <div class="box">	
+                <img src="" alt="">
+                <h3>Daffa Putra Setyatama</h3>
+                <div class="overlay">
+                    <div class="text">Perkenalkan nama saya Daffa, asal dari Depok.</div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="" alt="">
+                <h3>Muhammad Faried</h3>
+                <div class="overlay">
+                    <div class="text">Halo, nama saya Faried, asal dari Bogor.</div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="" alt="">
+                <h3>Teuku Muhammad Erlangga</h3>
+                <div class="overlay">
+                    <div class="text">Hai, saya Erlangga yang asalnya dari Depok.</div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="" alt="">
+                <h3>Roger Martua Simanjuntak</h3>
+                <div class="overlay">
+                    <div class="text">Hai, saya Roger yang asalnya dari Depok.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TEAM ENDS -->
+
+
     <?php include('bootstrap/footer.php');?>
 </body>
 
