@@ -16,13 +16,13 @@
     <section>
         <section>
             <form action="proses/proses_regis.php" class="form-container" method="POST">
-                <h4 class="textJudul mb-5 mt-2">Register</h4>
+                <h4 class="textJudul mb-3 mt-2">Register</h4>
                 <!-- Form -->
                 <div class="mb-3">
                     <label for="username" class="form-label textForm">Username</label>
                     <div class="input-group mb-3">
                         <span class="input-group-text" class="basic-addon1"><i class="bi bi-person-circle"></i></span>
-                        <input type="text" name="username" class="form-control" placeholder="Username">
+                        <input type="text" name="username" class="form-control" placeholder="Username" required>
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@
                     <label for="email" class="form-label textForm">Email</label>
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1">@</span>
-                        <input type="text" name="email" class="form-control" placeholder="Email">
+                        <input type="text" name="email" class="form-control" placeholder="Email" required>
                     </div>
                 </div>
 
@@ -38,14 +38,14 @@
                     <label for="password" class="form-label textForm">Password</label>
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1"><i class="bi bi-key"></i></span>
-                        <input type="password" name="password" class="form-control" placeholder="Password">
+                        <input type="password" name="password" class="form-control" placeholder="Password" required>
                     </div>
                 </div>
 
-                <a href="login.php" class="btn btn-outline-primary">Back</a>
-                <button type="submit" name="submit" class="btn btn-primary">Regist</button>
+              
+                <button type="submit" name="submit" class="btn btn-outline-primary ps-5 pe-5 ">Register</button>
                 <div class="form-footer mt-2">
-                    <p> Sudah Punya Account ? <a href="login.php">Login</a></p>
+                    <p> Sudah Punya Account ? <a href="index.php">Login</a></p>
                 </div>
             </form>
         </section>
