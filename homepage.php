@@ -44,16 +44,8 @@ $username = $_SESSION['username'];
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <!-- Link-menu untuk halaman Data -->
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <!-- Link-menu untuk halaman Form -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="btn btn-danger" href="proses/proses_logout.php">Logut</a>
+                        <a class="btn btn-danger" href="proses/proses_logout.php">Logout</a>
                     </li>
                 </ul>
             </div>
@@ -105,7 +97,7 @@ $username = $_SESSION['username'];
                 </div>
             </div>
             <div class="box">
-                <img src="image/Cikgu(1).jpeg" alt="">
+                <img src="image/ehsan(1).jpg" alt="">
                 <h3>Roger Martua Simanjuntak</h3>
                 <div class="overlay">
                     <div class="text">Hai, saya Roger yang asalnya dari Depok.</div>

@@ -107,6 +107,11 @@ img {
     text-align: center;
     padding-top: 10rem;
     font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.team h3 {
+    font-family: 'Poppins', sans-serif;
 }
 
 .team .box-container .box {
@@ -143,6 +148,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .team .box-container .box img {
@@ -155,4 +161,5 @@ img {
 .team .box-container .box h3 {
     font-size: 2rem;
     color: var(--black);
+    font-family: 'Poppins', sans-serif;
 }
