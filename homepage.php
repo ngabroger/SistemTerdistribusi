@@ -72,7 +72,7 @@ $username = $_SESSION['username'];
     <!-- Title Dashboard-->
     <div class="welkom">
         <h3>Selamat datang di dashboard</h3>
-     <h3> <?php echo $username;?></h3>
+    <h3> <?php echo $username;?></h3>
     </div>
     <!-- Title Dashboard-->
 
@@ -80,32 +80,32 @@ $username = $_SESSION['username'];
     <!-- TEAM STARTS -->
     <div class="team" id="team">
         <div class="heading">
-            <h3>Our Team</h3>
+            <h2>Our Team</h2>
         </div>
         <div class="box-container">
             <div class="box">	
-                <img src="" alt="">
+                <img src="image/Mail(1).jpeg" alt="">
                 <h3>Daffa Putra Setyatama</h3>
                 <div class="overlay">
                     <div class="text">Perkenalkan nama saya Daffa, asal dari Depok.</div>
                 </div>
             </div>
             <div class="box">
-                <img src="" alt="">
+                <img src="image/Fizi(1).jpeg" alt="">
                 <h3>Muhammad Faried</h3>
                 <div class="overlay">
                     <div class="text">Halo, nama saya Faried, asal dari Bogor.</div>
                 </div>
             </div>
             <div class="box">
-                <img src="" alt="">
+                <img src="image/Jarjit.jpeg" alt="">
                 <h3>Teuku Muhammad Erlangga</h3>
                 <div class="overlay">
                     <div class="text">Hai, saya Erlangga yang asalnya dari Depok.</div>
                 </div>
             </div>
             <div class="box">
-                <img src="" alt="">
+                <img src="image/Cikgu(1).jpeg" alt="">
                 <h3>Roger Martua Simanjuntak</h3>
                 <div class="overlay">
                     <div class="text">Hai, saya Roger yang asalnya dari Depok.</div>
